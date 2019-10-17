@@ -1,6 +1,6 @@
 {
     "name": "makerlin96/pinduoduo-sdk",
-    "description": "pinduoduoSDK",
+    "description": "拼多多开放平台SDK",
     "type": "library",
     "license": "MIT",
     "authors": [
