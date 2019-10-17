@@ -4,7 +4,7 @@
 namespace makerlin\pinduoduoSDK\request;
 
 
-use pinduoduoSDK\BaseRequest;
+use makerlin\pinduoduoSDK\BaseRequest;
 
 class PddDdkGoodsSearchRequest extends BaseRequest
 {
