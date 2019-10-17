@@ -1,0 +1,21 @@
+{
+    "name": "makerlin96/pinduoduo-sdk",
+    "description": "pinduoduoSDK",
+    "type": "library",
+    "license": "Apache2.0",
+    "authors": [
+        {
+            "name": "Maker Lin",
+            "email": "makerlin96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pinduoduoSDK\\": "src/"
+        }
+    }
+}
