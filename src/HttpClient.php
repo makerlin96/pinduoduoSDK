@@ -4,7 +4,7 @@
 namespace makerlin\pinduoduoSDK;
 
 
-use think\Exception;
+use \Exception;
 
 class HttpClient
 {
@@ -95,7 +95,11 @@ class HttpClient
 
         $params['sign'] = $sign;
 
-        $response = $this->postCurl($params);
+        try {
+            $response = $this->postCurl($params);
+        } catch (SDKHttpException $e) {
+            throw $e;
+        }
 
         return $response;
     }
