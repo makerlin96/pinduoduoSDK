@@ -1,7 +1,7 @@
 <?php
 
 
-namespace pinduoduoSDK\request;
+namespace makerlin\pinduoduoSDK\request;
 
 
 use pinduoduoSDK\BaseRequest;

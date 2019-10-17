@@ -1,7 +1,7 @@
 <?php
 
 
-namespace pinduoduoSDK;
+namespace makerlin\pinduoduoSDK;
 
 
 class SDKHttpException extends \Exception
